@@ -50,7 +50,7 @@
   <div class="content">
     <div class="container py-4">
       <h2 class="mb-4">Cadastro de Produtos</h2>
-<a href="lista_produtos.html" class="btn btn-primary mt-3" style="margin-bottom: 50px;">Lista de Produto</a>
+<a href="index.html" class="btn btn-primary mt-3" style="margin-bottom: 50px;">Lista de Produto</a>
   
       <form id="form-produto" class="card p-4 shadow-sm bg-white">
         <div id="mensagem"></div>
@@ -168,7 +168,7 @@
         mensagem.innerHTML = `<div class="alert alert-danger">Erro ao atualizar: ${error.message}</div>`;
       } else {
         mensagem.innerHTML = `<div class="alert alert-success">Produto atualizado com sucesso!</div>`;
-        setTimeout(() => window.location.href = "lista_produtos.html", 800);
+        setTimeout(() => window.location.href = "index.html", 800);
       }
     }
 
